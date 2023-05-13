@@ -21,24 +21,24 @@ export const ComponentMovies = () => {
     }
   }, []);
 
-  useEffect(() => {
-    const targetElementShow = document.querySelectorAll(".target");
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("active");
-        } else {  
-          entry.target.classList.remove("active");
-        }
-      })
+  // useEffect(() => {
+  //   const targetElementShow = document.querySelectorAll(".target");
+  //   const observer = new IntersectionObserver((entries, observer) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         entry.target.classList.add("active");
+  //       } else {  
+  //         entry.target.classList.remove("active");
+  //       }
+  //     })
 
-    })
+  //   })
 
-    targetElementShow.forEach((contacto) => {
-      observer.observe(contacto);
-    });
+  //   targetElementShow.forEach((contacto) => {
+  //     observer.observe(contacto);
+  //   });
 
-  }, [movies]);
+  // }, [movies]);
 
   return (
     <ul className="movies ">
@@ -47,22 +47,22 @@ export const ComponentMovies = () => {
           <li key={movie.id} className={`movie target active`}>
             <h3>{movie.title}</h3>
             <p>{movie.year}</p>
-            {/* <a href={movie.image} className="progressive replace logo" onClick={() => selectMovie(movie)}>
+            <a href={movie.image} className="progressive replace logo" onClick={() => selectMovie(movie)}>
               <img
                 src={movie.image}
                 className="preview "
                 alt={movie.title}
                 loading="lazy"
               />
-            </a> */}
+            </a>
 
-            <img
+            {/* <img
               src={movie.image}
               alt={movie.title}
               className={`logo`}
               onClick={() => selectMovie(movie)}
               loading="lazy"
-            />
+            /> */}
           </li>
         );
       })}
