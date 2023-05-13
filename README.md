@@ -12,6 +12,7 @@ Este proyecto es un **buscador de películas** desarrollado con **React** utiliz
 - **Popup de información**: Al hacer clic en una película, se muestra un popup con información detallada de la película. Desde el popup, se puede navegar a otra página web relacionada con la película.
 - **Infinite Scroll**: Se ha implementado una funcionalidad de "infinite scroll" sin utilizar bibliotecas de terceros. Esto permite cargar más datos a medida que se va realizando scroll en la navegación, mejorando así la experiencia del usuario.
 - **Animación CSS**: Se ha creado una pequeña animación CSS personalizada para hacer que la información aparezca gradualmente, brindando una experiencia de usuario más agradable.
+- **Debounce en la busqueda**: Añadida funcionalidad para generar un retardo en la busqueda. A x segundos de dejar de escribir es cuando se lanza la busqueda.
 
 ## Instrucciones de uso
 
