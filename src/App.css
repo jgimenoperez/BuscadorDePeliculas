@@ -106,7 +106,7 @@ header h1 {
 
 
 .progressive img.reveal {
-  animation: progressiveReveal 4s linear;
+  animation: progressiveReveal 2s linear;
 }
 
 /* @keyframes progressiveReveal {
