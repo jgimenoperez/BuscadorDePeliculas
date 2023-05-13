@@ -115,7 +115,7 @@ header h1 {
 }
 
 
-  /* .target {
+  .target {
     visibility: hidden;
   }
 
@@ -123,4 +123,4 @@ header h1 {
     visibility: visible;
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
-  } */
+  }
