@@ -13,7 +13,7 @@ Este proyecto es un **buscador de películas** desarrollado con **React** utiliz
 - **Infinite Scroll**: Se ha implementado una funcionalidad de "infinite scroll" sin utilizar bibliotecas de terceros. Esto permite cargar más datos a medida que se va realizando scroll en la navegación, mejorando así la experiencia del usuario.
 - **Animación CSS**: Se ha creado una pequeña animación CSS personalizada para hacer que la información aparezca gradualmente, brindando una experiencia de usuario más agradable.
 - **Debounce en la busqueda**: Añadida funcionalidad para generar un retardo en la busqueda. A x segundos de dejar de escribir es cuando se lanza la busqueda.
-
+- **Pruebas unitarias**: Se han realizado varias pruebas unitarias tanto de la pagina home de la pagina /movies/:id. Se ha utilizado la libreria de testin VITEST 
 ## Instrucciones de uso
 
 Sigue estos pasos para poner en marcha el proyecto en tu entorno de desarrollo:
@@ -24,4 +24,5 @@ Sigue estos pasos para poner en marcha el proyecto en tu entorno de desarrollo:
 4. Crea un archivo `.env.local` en la raíz del proyecto y agrega tu clave de API de TMDb:
 5. Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
 6. Abre tu navegador web y accede a `http://localhost:5173` para ver la aplicación en funcionamiento.
+7. Para comprobacion de las pruebas unitarias ejecutar en la carpeta del proyecto npm run test. 
 ¡Listo! Ahora puedes disfrutar del buscador de películas en tu entorno de desarrollo local.
