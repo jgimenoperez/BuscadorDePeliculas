@@ -23,7 +23,6 @@ Sigue estos pasos para poner en marcha el proyecto en tu entorno de desarrollo:
 3. Ejecuta el siguiente comando para instalar las dependencias del proyecto:
 4. Crea un archivo `.env.local` en la raíz del proyecto y agrega tu clave de API de TMDb: Ejem: 
     Añado mi key para facilitar el uso <span style="background-color:white; color:red;">VITE_KEYMOVIES=cb3e39dead7ef76b21fdc661577cc4fc</span>
-Texto con fondo amarillo
 </div>
 5. Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
 6. Abre tu navegador web y accede a `http://localhost:5173` para ver la aplicación en funcionamiento.
