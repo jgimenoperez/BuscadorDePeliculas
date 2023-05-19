@@ -29,7 +29,6 @@ export const moviesSlice = createSlice({
         state.movieSearch = action.payload;
     },
     setResetState: (state) => {
-        console.log(111)
         Object.assign(state, initialState);
     },
 
